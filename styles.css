@@ -1,0 +1,52 @@
+/*--
+ Cheech's Pizza Parlor
+ Author: Cindy Phan
+ Date:    July 12, 022
+*/
+
+.header-img{
+  background-image: url("header.png");
+}
+
+.nav_links {
+  list-style:none;
+  box-shadow: 0px 0px 10px rgb(51,51,51);
+  background: black;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+
+}
+
+.nav_links li a{
+  display: block;
+  text-decoration: none;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+  flex: 1 580px;
+}
+.nav_links li a:hover{
+  background-color: grey;
+}
+
+.row{
+  display: flex;
+  justify-content:space-between;
+  padding:20px;
+  flex-wrap: wrap;
+}
+
+h2 p{
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:575px){
+  .nav_links{display:block;}
+  .li a {width:100%;}
+
+}
